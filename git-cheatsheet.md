@@ -1,4 +1,4 @@
-- git ini: create empty local repository
+- git init: create empty local repository
 - git status: check status
 - git add <Filename>: add filename to git
 - git commit -m "Message" (i.e. Changes on xy) -> saves changes in repository
@@ -15,5 +15,8 @@
 - git switch <branchName>: switch between branches
 - git pull: pulls changes that happend on the branches onto local drive (that should be done frequently on a daily basis if working on branches)
 - git branch: shows all branches
+- git branch --all : shows all branches
   (- git checkout head-1 : jumps back to the last commit before HEAD)
 - git config --global core.editor "nano" : changes default editor from vi to nano
+- git remote -v : shows remote git
+- git remote set-url origin <git URL ssh> : changes git origin (from https to ssh for example)
