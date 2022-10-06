@@ -1,6 +1,6 @@
 - git ini: create empty local repository
 - git status: check status
-- git add <Filename>: add filename to git
+- git add <Filename>: changes files onto git -> it adds and deletes if commanded -> ready to be committed
 - git commit -m "Message" (i.e. Changes on xy) -> saves changes in repository
 - git add . : add all changes
 - git restore --staged <filename>: delete added but not committed changes
@@ -14,6 +14,9 @@
 - git switch -c <branchname>: creates new branch with <branchname>
 - git switch <branchName>: switch between branches
 - git pull: pulls changes that happend on the branches onto local drive (that should be done frequently on a daily basis if working on branches)
-- git branch: shows all branches
+- git branch: shows all branches <add -a> to get all branches shown
   (- git checkout head-1 : jumps back to the last commit before HEAD)
 - git config --global core.editor "nano" : changes default editor from vi to nano
+- git checkout HEAD~1<oder ~2/~3><ansonten geht der commit hash statt HEAD etc.> -- <FileName> : restores deleted file that was part of commit of head minus one session
+- history <-E> : shows used commands in terminal; add -E and you get date and time also shown
+- git branch --delete <branchname> : deletes local branch // <alternative: git branch -D <branchname>>
