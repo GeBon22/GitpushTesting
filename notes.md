@@ -23,3 +23,7 @@
 - git branch: shows all branches
   (- git checkout head-1 : jumps back to the last commit before HEAD)
 - git config --global core.editor "nano" : changes default editor from vi to nano
+- git remote -v : shows remote git
+- git remote set-url origin <git URL ssh> : changes git origin (from 
+https to ssh for example)
+
