@@ -1,3 +1,10 @@
+    • feature branches sind temporäre branches, die für die Einführung eines Features neben dem Main branch herlaufen
+    • die Änderungen im feature branch werden committed und von anderen reviewed (= „Pullrequest“)
+    • nach review und stattgabe wird der feature branch final mit dem main branch gemerged
+
+
+#usefull git commands:
+
 - git ini: create empty local repository
 - git status: check status
 - git add <Filename>: add filename to git
@@ -17,3 +24,4 @@
 - git branch: shows all branches
   (- git checkout head-1 : jumps back to the last commit before HEAD)
 - git config --global core.editor "nano" : changes default editor from vi to nano
+
